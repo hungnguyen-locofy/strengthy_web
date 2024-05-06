@@ -1,0 +1,93 @@
+.imageIcon {
+  align-self: stretch;
+  height: 429px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.yogaAsTherapy {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 110%;
+  font-weight: 700;
+  font-family: var(--see-more);
+  text-align: center;
+}
+.containingLoremIpsum,
+.readMore {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+}
+.containingLoremIpsum {
+  align-self: stretch;
+  height: 69px;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-dimgray);
+  flex-shrink: 0;
+}
+.readMore {
+  font-weight: 600;
+  min-width: 107px;
+}
+.button,
+.card1,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  flex-direction: row;
+  color: var(--color-blueviolet-100);
+}
+.card1,
+.text {
+  flex-direction: column;
+  max-width: 100%;
+}
+.text {
+  width: 387px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.card1 {
+  width: 447px;
+  margin: 0 !important;
+  position: absolute;
+  top: 911px;
+  left: 1266px;
+  background-color: var(--primary-white);
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .yogaAsTherapy {
+    font-size: var(--heading-3-size);
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yogaAsTherapy {
+    font-size: var(--headline-h3-size);
+    line-height: 20px;
+  }
+  .containingLoremIpsum {
+    line-height: 26px;
+  }
+  .containingLoremIpsum,
+  .readMore {
+    font-size: var(--headline-h3-size);
+  }
+}

@@ -1,0 +1,153 @@
+.base {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--primary-white);
+  box-shadow: var(--shadow-1-shadow);
+}
+.icTurnedInNotIcon,
+.logoIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.icTurnedInNotIcon {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+.alignAssistant {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.seniorDeveloperOn {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  z-index: 1;
+}
+.icDomainIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+}
+.helpCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.shopee {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.item {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.icLocationOnIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+}
+.icLocationOnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.officeSingapura {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+}
+.item1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.icWalletTravelIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+}
+.icWalletTravelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.fullTime {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+}
+.card,
+.item2,
+.strokeAssistant {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item2 {
+  overflow: hidden;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.card,
+.strokeAssistant {
+  gap: var(--gap-base);
+  font-size: var(--headline-h5-medium-size);
+}
+.card {
+  width: 418px;
+  margin: 0 !important;
+  position: absolute;
+  top: 438px;
+  left: 1416px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headline-h3-size);
+  color: var(--dark-1-dark);
+  font-family: var(--see-more);
+}
+@media screen and (max-width: 450px) {
+  .strokeAssistant {
+    flex-wrap: wrap;
+  }
+}

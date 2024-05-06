@@ -1,0 +1,58 @@
+.imageIcon {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.artemDigital,
+.loremIpsumDolor {
+  position: relative;
+  line-height: 28px;
+}
+.artemDigital {
+  margin: 0;
+  width: 286px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--headline-h3-size);
+  font-family: var(--font-rubik);
+  color: var(--secondary-grey);
+}
+.card1,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.card1 {
+  width: 374px;
+  margin: 0 !important;
+  position: absolute;
+  top: 2196.1px;
+  left: 10px;
+  background-color: var(--color-darkslategray-100);
+  gap: var(--gap-14xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-white);
+  font-family: var(--font-creato-display);
+}
+@media screen and (max-width: 450px) {
+  .artemDigital {
+    font-size: var(--font-size-xl);
+    line-height: 22px;
+  }
+}
