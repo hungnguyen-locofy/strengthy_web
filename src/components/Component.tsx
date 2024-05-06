@@ -16,7 +16,6 @@ const Component: FunctionComponent<ComponentType> = ({
   ratting = 5,
   facebook,
   twitter,
-  insta,
   skills,
 }) => {
   return (
