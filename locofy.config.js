@@ -1,5 +1,6 @@
 module.exports = {
   components: [
+    "./src/components/Card1.tsx",
     "./src/components/Component.tsx",
     "./src/components/Component1.tsx",
     "./src/components/Component2.tsx",
