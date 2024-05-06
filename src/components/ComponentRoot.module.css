@@ -1,0 +1,201 @@
+.ellipse,
+.imageIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+}
+.imageIcon {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ellipse {
+  height: 55px;
+  width: calc(100% - 1px);
+  right: 1px;
+  border-radius: 50%;
+  background-color: var(--color-blueviolet);
+}
+.div,
+.h1 {
+  position: relative;
+  z-index: 1;
+}
+.h1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 28px;
+}
+.div {
+  flex-direction: row;
+  padding: 5px var(--padding-sm) 0;
+}
+.div,
+.fRAMEA,
+.image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 121px;
+  position: relative;
+}
+.fRAMEA {
+  width: 192px;
+  flex-direction: column;
+  padding: 8.5px 0 0;
+  box-sizing: border-box;
+}
+.lINEB {
+  height: 209px;
+  width: 2px;
+  position: relative;
+  object-fit: contain;
+  min-height: 209px;
+}
+.nattasha {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 110px;
+}
+.athleticsTrainer {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 110%;
+  font-family: var(--font-lato);
+  color: #2f2f2f;
+  white-space: nowrap;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.ratingIcon,
+.thereAreMany {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 101efb3;
+}
+.ratingIcon {
+  width: 139px;
+  height: 28.4px;
+  object-fit: contain;
+}
+.thereAreMany {
+  align-self: stretch;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.subContent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 109px;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-lato);
+}
+.componentRoot,
+.content,
+.content1,
+.contentWrapper,
+.subContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.componentRoot,
+.content,
+.contentWrapper {
+  max-width: 100%;
+}
+.contentWrapper {
+  width: 507px;
+  flex-direction: column;
+  padding: 1.3px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+.componentRoot,
+.content {
+  flex-direction: row;
+}
+.content {
+  gap: 43px;
+  text-align: left;
+  font-size: 60px;
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.componentRoot {
+  width: 940px;
+  background-color: #f0f0f0;
+  padding: 66px 53px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 900px) {
+  .h1 {
+    font-size: 48px;
+    line-height: 53px;
+  }
+  .lINEB {
+    width: 100%;
+    height: 2px;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  .componentRoot {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .nattasha {
+    font-size: var(--font-size-xl);
+    line-height: 22px;
+  }
+  .thereAreMany {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .content {
+    gap: var(--gap-2xl);
+  }
+}

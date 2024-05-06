@@ -1,0 +1,161 @@
+.imageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.march222022 {
+  width: 141px;
+  position: relative;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+}
+.tagChild,
+.tagItem {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-whitesmoke-100);
+}
+.tagChild {
+  width: 90px;
+  left: 0;
+}
+.tagItem {
+  width: 77px;
+  right: 0;
+}
+.fitness,
+.health {
+  position: relative;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 63px;
+  z-index: 1;
+}
+.health {
+  min-width: 59px;
+}
+.date,
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.tag {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 9px 0 var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 116px;
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
+}
+.date {
+  width: 335px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  color: var(--color-blueviolet);
+}
+.inYourPark,
+.the10Best {
+  margin: 0;
+}
+.the10BestContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: var(--font-inter);
+}
+.imageIcon1 {
+  height: 55.3px;
+  width: 55.3px;
+  position: relative;
+  object-fit: cover;
+}
+.jacobCornish {
+  position: relative;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 123px;
+}
+.bloger,
+.jacobCornishWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jacobCornishWrapper {
+  flex-direction: column;
+  padding: 13.1px 0 0;
+}
+.bloger {
+  flex-direction: row;
+  gap: 12px;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 25px;
+  flex-shrink: 0;
+}
+.content,
+.content1,
+.div {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}
+.div {
+  width: 468px;
+  background-color: var(--color-white);
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-17xl) var(--padding-18xl) var(--padding-17xl) 38px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .fitness,
+  .health,
+  .march222022 {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .the10BestContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 25px;
+  }
+  .jacobCornish {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+}

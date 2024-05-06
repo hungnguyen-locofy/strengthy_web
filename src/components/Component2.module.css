@@ -1,0 +1,68 @@
+.imageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.pilatesTraining {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 110%;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  text-align: center;
+}
+.containingLoremIpsum,
+.readMore {
+  position: relative;
+  display: inline-block;
+}
+.containingLoremIpsum {
+  align-self: stretch;
+  height: 69px;
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-dimgray);
+  flex-shrink: 0;
+}
+.readMore {
+  font-weight: 600;
+  min-width: 107px;
+}
+.button,
+.div,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  flex-direction: row;
+  color: var(--color-blueviolet);
+}
+.div,
+.text {
+  max-width: 100%;
+  flex-direction: column;
+}
+.text {
+  width: 387px;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: #1c2129;
+  font-family: var(--font-lato);
+}
+.div {
+  width: 447px;
+  background-color: var(--color-white);
+  gap: var(--gap-3xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

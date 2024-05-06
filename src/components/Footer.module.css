@@ -1,0 +1,571 @@
+.backgroundIcon,
+.utilityPagesLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.backgroundIcon {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.utilityPagesLink {
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen-100);
+}
+.f {
+  top: -7.2px;
+  left: 12.4px;
+  font-size: var(--font-size-11xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.f,
+.f1,
+.vectorIcon {
+  position: absolute;
+  display: none;
+}
+.f1 {
+  top: 28.8px;
+  left: 21.4px;
+  font-size: var(--font-size-11xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  text-align: left;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.vectorIcon {
+  height: 203.23%;
+  width: 79.23%;
+  top: -50%;
+  right: 10.09%;
+  bottom: -53.23%;
+  left: 10.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 100%;
+  width: 100%;
+  top: -23.66%;
+  right: -7.72%;
+  bottom: -23.12%;
+  left: -13.35%;
+  display: none;
+}
+.passwordProtectedPage,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2 {
+  height: 209.14%;
+  width: 84.57%;
+  top: -54.3%;
+  right: 7.72%;
+  bottom: -54.84%;
+  left: 7.72%;
+  display: none;
+}
+.passwordProtectedPage,
+.vectorIcon3 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon3 {
+  height: 166.13%;
+  width: 79.53%;
+  top: -32.8%;
+  right: 10.09%;
+  bottom: -33.33%;
+  left: 10.39%;
+  display: none;
+}
+.logo1 {
+  position: absolute;
+  top: 14.2px;
+  left: 6.6px;
+  width: 33.7px;
+  height: 18.6px;
+  z-index: 1;
+}
+.icon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 47px;
+  width: 47px;
+  position: relative;
+}
+.strengthy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.logo,
+.strengthyWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strengthyWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.logo {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.itIsA {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 145%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-silver);
+}
+.content {
+  width: 413px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.call2 {
+  font-weight: 900;
+}
+.call1 {
+  text-transform: capitalize;
+}
+.call {
+  margin: 0;
+}
+.span1 {
+  font-weight: 500;
+}
+.span {
+  text-transform: capitalize;
+}
+.p {
+  margin: 0;
+  color: var(--color-silver);
+}
+.span3 {
+  font-weight: 500;
+}
+.span2 {
+  text-transform: capitalize;
+}
+.p1 {
+  margin: 0;
+}
+.blankLine2 {
+  font-weight: 900;
+}
+.blankLine1 {
+  text-transform: capitalize;
+}
+.blankLine {
+  margin: 0;
+}
+.mail2 {
+  font-weight: 900;
+}
+.span4 {
+  font-weight: 500;
+}
+.mail1 {
+  text-transform: capitalize;
+}
+.mail {
+  margin: 0;
+  color: var(--color-silver);
+}
+.contactfitnessfitcom1 {
+  font-weight: 500;
+}
+.contactfitnessfitcom {
+  margin: 0;
+}
+.call01234Container {
+  position: relative;
+  line-height: 145%;
+}
+.callAndMail,
+.div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callAndMail {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  flex-direction: row;
+  padding: var(--padding-15xl) var(--padding-18xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-yellowgreen-100);
+  font-family: var(--font-lato);
+}
+.div {
+  width: 436px;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.utilityPages {
+  position: relative;
+  line-height: 28px;
+}
+.styleGuide {
+  margin: 0;
+  font-weight: 500;
+}
+.changelog {
+  margin: 0;
+}
+.contact,
+.licenses,
+.page,
+.passwordProtected {
+  margin: 0;
+  font-weight: 500;
+}
+.styleGuideChangelogContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 242.5%;
+  text-transform: capitalize;
+  color: var(--color-silver);
+  font-family: var(--font-lato);
+}
+.div1 {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.newsletter {
+  position: relative;
+  line-height: 28px;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.enterYourEmail {
+  width: 158px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-3xl);
+  background-color: transparent;
+  height: 27px;
+  position: relative;
+  text-transform: lowercase;
+  color: var(--color-silver);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.mail3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-19xl) var(--padding-lg);
+  position: relative;
+}
+.subscribe {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+}
+.button,
+.button1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-37xl) var(--padding-xl);
+  background-color: var(--color-yellowgreen-200);
+  flex-direction: row;
+}
+.button1:hover {
+  background-color: var(--color-yellowgreen-300);
+}
+.button {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.fbIcon,
+.instaIcon {
+  height: 21.3px;
+  width: 22.1px;
+  position: relative;
+  min-height: 21px;
+}
+.fbIcon {
+  height: 21.1px;
+}
+.twiterIcon {
+  width: 23.7px;
+  height: 18.9px;
+  position: relative;
+}
+.instaFbContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+}
+.content1,
+.div3,
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.content1,
+.div3 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.div3 {
+  gap: var(--gap-16xl);
+}
+.line,
+.lineWrapper {
+  box-sizing: border-box;
+}
+.line {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+}
+.lineWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xl);
+  min-width: 218px;
+  max-width: 100%;
+}
+.upArrowIcon {
+  height: 57px;
+  width: 57px;
+  position: relative;
+}
+.div2,
+.top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.top {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.div2 {
+  width: 423px;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.subContent,
+.subContent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.subContent1 {
+  width: 1401px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.subContent {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-86xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.copyright1 {
+  font-weight: 500;
+}
+.fitnessfit {
+  color: var(--color-blueviolet);
+}
+.designedByvictorflowTemplate {
+  font-weight: 500;
+}
+.copyrightFitnessfitContainer {
+  position: relative;
+  line-height: 242.5%;
+  text-transform: capitalize;
+}
+.contentContainer,
+.copyright,
+.footer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.copyright {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contentContainer,
+.footer {
+  align-self: stretch;
+}
+.contentContainer {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.footer {
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1225px) {
+  .subContent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .f,
+  .f1,
+  .strengthy {
+    font-size: var(--font-size-5xl);
+  }
+  .subContent {
+    padding-top: var(--padding-49xl);
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .f,
+  .f1,
+  .strengthy {
+    font-size: var(--font-size-lg);
+  }
+  .itIsA {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .div {
+    gap: var(--gap-5xl);
+  }
+  .utilityPages {
+    font-size: var(--font-size-xl);
+    line-height: 22px;
+  }
+  .styleGuideChangelogContainer {
+    font-size: var(--font-size-base);
+    line-height: 39px;
+  }
+  .div1 {
+    gap: var(--gap-base);
+  }
+  .newsletter {
+    font-size: var(--font-size-xl);
+    line-height: 22px;
+  }
+  .enterYourEmail,
+  .subscribe {
+    font-size: var(--font-size-lg);
+  }
+  .content1 {
+    gap: var(--gap-xl);
+  }
+  .div3 {
+    gap: var(--gap-mid);
+  }
+  .top {
+    flex-wrap: wrap;
+  }
+  .div2 {
+    gap: var(--gap-mid);
+  }
+  .copyrightFitnessfitContainer {
+    font-size: var(--font-size-base);
+    line-height: 39px;
+  }
+  .footer {
+    gap: var(--gap-base);
+  }
+}
