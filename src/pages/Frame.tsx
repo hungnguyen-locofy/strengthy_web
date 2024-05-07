@@ -1,22 +1,14 @@
 import { FunctionComponent } from "react";
 
 import styles from "./Frame.module.css";
-import Component from "../components/Component";
-import Component1 from "../components/Component1";
-import Component2 from "../components/Component2";
-import ComponentRoot from "../components/ComponentRoot";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import TSComponent from "../components/TypeComponent";
+import Component from "@/components/Component";
 
 const Frame: FunctionComponent = () => {
   return (
     <div className={styles.div}>
+      <TSComponent />
       <Component />
-      <Component1 />
-      <Component2 />
-      <ComponentRoot />
-      <Footer />
-      <Header />
     </div>
   );
 };

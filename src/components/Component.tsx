@@ -1,30 +1,37 @@
 import { FunctionComponent } from "react";
 import styles from "./Component.module.css";
 
-type ComponentType = {
+enum Ratting {
+  Zero,
+  One,
+  Two,
+  Three,
+  Four,
+  Five,
+}
+
+type User = {
   image: string;
   name: string;
-  ratting: number;
+  ratting: Ratting;
   facebook: string;
   insta: string;
   twitter: string;
-  skills: string;
+  skills: string[];
 };
-const Component: FunctionComponent<ComponentType> = ({
-  image,
-  name,
-  ratting = 5,
-  facebook,
-  twitter,
-  skills,
-}) => {
+
+type ComponentType = {
+  user: User;
+};
+
+const Component: FunctionComponent<ComponentType> = ({ user }) => {
   return (
     <div className={styles.div}>
-      <img className={styles.imageIcon} alt="" src={image} />
+      <img className={styles.imageIcon} alt="" src={user.image} />
       <section className={styles.details}>
         <div className={styles.content}>
           <div className={styles.name}>
-            <div className={styles.madisonFroning}>{name}</div>
+            <div className={styles.madisonFroning}>{user.name}</div>
             <div className={styles.starWrapper}>
               <div className={styles.star}>
                 <div className={styles.highlightedStar}>
@@ -35,7 +42,7 @@ const Component: FunctionComponent<ComponentType> = ({
                     src="/star.svg"
                   />
                 </div>
-                <div className={styles.socialMediaIcons}>/{ratting}</div>
+                <div className={styles.socialMediaIcons}>/{user.ratting} </div>
               </div>
             </div>
           </div>
@@ -43,7 +50,9 @@ const Component: FunctionComponent<ComponentType> = ({
           <div className={styles.content1}>
             <div className={styles.specilitis}>
               <b className={styles.specialisations}>Specialisations :</b>
-              <div className={styles.crossfitExpoortNutrition}>{skills}</div>
+              <div className={styles.crossfitExpoortNutrition}>
+                {user.skills.join(", ")}
+              </div>
             </div>
             <div className={styles.socialIcon}>
               <img
